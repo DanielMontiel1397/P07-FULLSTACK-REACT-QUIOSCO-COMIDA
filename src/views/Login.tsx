@@ -5,7 +5,7 @@ import { useAppStore } from "../stores/useAppStore";
 
 export default function Login() {
 
-  
+
 
   //STORE
   const loginUsuario = useAppStore(state => state.loginUsuario);
@@ -108,6 +108,32 @@ export default function Login() {
             ¿No tienes cuenta? Crea una.
           </Link>
         </nav>
+
+        <div className="mt-6 max-w-md mx-auto bg-white border border-gray-200 rounded-xl shadow-md p-5">
+
+          <p className="text-center text-gray-700 font-semibold text-lg mb-4">
+            Prueba una cuenta de administrador
+          </p>
+
+          <div className="flex flex-col md:justify-between md:items-center gap-3 text-sm md:text-base">
+
+            <div className=" w-full">
+              <p className="font-semibold text-gray-700">
+                Usuario: <span className="text-gray-600 break-all">admin@gmail.com</span>
+              </p>
+              
+            </div>
+
+            <div className="w-full">
+              <p className="font-semibold text-gray-700">
+                Password: <span className="text-gray-600">123456</span>
+              </p>
+              
+            </div>
+
+          </div>
+
+        </div>
 
       </div>
     </>

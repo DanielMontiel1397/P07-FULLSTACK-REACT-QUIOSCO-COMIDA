@@ -24,13 +24,13 @@ export default function Inicio() {
     : [];
 
   return (
-    <div className="space-y-10">
+    <div className="md:space-y-10 space-y-5">
       
-      <div className="rounded-3xl bg-linear-to-r from-indigo-50 to-purple-50 p-8 shadow-sm">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 tracking-tight">
+      <div className="rounded-3xl bg-linear-to-r from-indigo-50 to-purple-50 md:p-8 p-4 shadow-sm">
+        <h1 className="text-xl md:text-5xl font-extrabold text-gray-800 tracking-tight">
           {categoriaActual?.nombre}
         </h1>
-        <p className="mt-3 max-w-xl text-lg text-gray-600">
+        <p className="mt-3 max-w-xl text-md md:text-lg text-gray-600">
           Selecciona tus productos favoritos y agrégalos a tu pedido.
         </p>
       </div>
