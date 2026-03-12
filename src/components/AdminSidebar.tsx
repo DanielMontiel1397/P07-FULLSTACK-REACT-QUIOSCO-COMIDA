@@ -77,7 +77,7 @@ export default function AdminSidebar({ sidebarOpen, setSidebarOpen }: Props) {
         <div className="p-4">
           <button
             onClick={logOut}
-            className="w-full rounded-xl bg-red-500 py-3 text-sm font-bold shadow-lg transition hover:bg-red-600 active:scale-95"
+            className="w-full rounded-xl bg-red-500 py-3 text-sm font-bold shadow-lg transition hover:bg-red-600 active:scale-95 hover:cursor-pointer"
           >
             Cerrar Sesión
           </button>

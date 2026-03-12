@@ -126,7 +126,7 @@ export default function Login() {
 
             <div className="w-full">
               <p className="font-semibold text-gray-700">
-                Password: <span className="text-gray-600">123456</span>
+                Password: <span className="text-gray-600">admin.1234</span>
               </p>
               
             </div>
